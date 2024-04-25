@@ -9,7 +9,7 @@ public class ALgo {
         int count =0;
         int max=0;
         while(n>0){
-            if(n%2==1){
+            if(n%2==0){
                 count++;
                 if(count>max){
                     max=count;
@@ -20,7 +20,7 @@ public class ALgo {
             }
             n=n/2;
         }
-        System.out.println(count);
+        System.out.println(max);
     }
 
     public static void consecutiveOneCollectioMethod(){
@@ -28,6 +28,7 @@ public class ALgo {
     }
     public static void main(String[] args) {
         consecutiveZeros();
+        System.out.println("Just did it");
 
 
     }
